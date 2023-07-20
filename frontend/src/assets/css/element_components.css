@@ -1,0 +1,46 @@
+.el-input__inner,
+.el-input-group__prepend,
+.el-input .el-input__count .el-input__count-inner,
+.el-input.is-disabled .el-input__inner,
+.el-select-dropdown__list,
+.el-dialog__title,
+.el-tabs,
+.el-card,
+.el-card__header,
+.el-card__body {
+  background-color: var(---background-color) !important;
+  border-color: var(---secondary-color) !important;
+  color: var(---primary-color) !important;
+}
+
+.el-form-item__label {
+  color: var(---primary-color);
+}
+
+.el-select-dropdown__item.hover {
+  background-color: var(---primary-color) !important;
+}
+
+.el-select-dropdown__item.selected,
+.el-tabs--card > .el-tabs__header .el-tabs__item.is-active,
+.el-tabs--card > .el-tabs__header .el-tabs__item :hover {
+  color: var(---secondary-color) !important;
+}
+
+.el-input.is-disabled .el-input__inner {
+  font-style: italic !important;
+}
+
+.el-dialog__body,
+.el-dialog__header {
+  background: var(---background-color) !important;
+}
+.el-dialog__body {
+  border: 1px solid var(---secondary-color) !important;
+  border-top: none !important;
+}
+.el-dialog__header {
+  border: 1px solid var(---secondary-color) !important;
+  border-bottom: none !important;
+  text-transform: uppercase !important;
+}

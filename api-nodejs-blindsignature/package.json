@@ -1,0 +1,24 @@
+{
+  "name": "api-nodejs-blindsignature",
+  "version": "1.0.0",
+  "description": "backend api for generating the evuid using blind signature",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve" : "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "js-sha256": "^0.9.0",
+    "js-sha3": "^0.8.0",
+    "jsbn": "^1.1.0",
+    "node-rsa": "^1.1.1",
+    "nodemon": "^2.0.22",
+    "secure-random": "^1.1.2",
+    "web3": "^1.10.0"
+  }
+}

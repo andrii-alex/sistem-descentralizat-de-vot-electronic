@@ -1,0 +1,11 @@
+[25-Mar-2023 18:00:04 Europe/Bucharest] PHP Warning:  require(/home2/bpblvxyj/evoting.andrii.ro/api-php/vendor/composer/../phpunit/phpunit/src/Framework/Assert/Functions.php): Failed to open stream: No such file or directory in /home2/bpblvxyj/evoting.andrii.ro/api-php/vendor/composer/autoload_real.php on line 55
+[25-Mar-2023 18:00:04 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/bpblvxyj/evoting.andrii.ro/api-php/vendor/composer/../phpunit/phpunit/src/Framework/Assert/Functions.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/bpblvxyj/evoting.andrii.ro/api-php/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home2/bpblvxyj/evoting.andrii.ro/api-php/vendor/composer/autoload_real.php(38): composerRequireb4627a4bdd1c4404be681dbc0bc37760()
+#1 /home2/bpblvxyj/evoting.andrii.ro/api-php/vendor/autoload.php(12): ComposerAutoloaderInitb4627a4bdd1c4404be681dbc0bc37760::getLoader()
+#2 /home2/bpblvxyj/evoting.andrii.ro/api-php/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(136): include('/home2/bpblvxyj...')
+#3 /home2/bpblvxyj/evoting.andrii.ro/api-php/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(125): CodeIgniter\Autoloader\Autoloader->loadComposerInfo()
+#4 /home2/bpblvxyj/evoting.andrii.ro/api-php/vendor/codeigniter4/framework/system/bootstrap.php(105): CodeIgniter\Autoloader\Autoloader->initialize()
+#5 /home2/bpblvxyj/evoting.andrii.ro/api-php/public/index.php(38): require('/home2/bpblvxyj...')
+#6 {main}
+  thrown in /home2/bpblvxyj/evoting.andrii.ro/api-php/vendor/composer/autoload_real.php on line 55

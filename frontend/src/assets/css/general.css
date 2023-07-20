@@ -1,0 +1,116 @@
+@import "fonts.css";
+
+* {
+  margin: 0;
+  font-family: "Titillium";
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  ---background-color: #020200;
+  ---primary-color: #d8ccb5;
+  ---secondary-color: #ff3811;
+  overflow: auto;
+  height: 100%;
+  background-color: #020200;
+}
+
+.default_button {
+  background-color: var(---secondary-color);
+  color: var(---primary-color);
+  padding: 10px 20px;
+  width: 150px;
+  border: 1px solid var(---primary-color);
+  border-radius: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.default_button:hover {
+  background-color: var(---primary-color);
+  color: var(---secondary-color);
+  border: 1px solid var(---secondary-color);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: var(---primary-color);
+  color: var(---background-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  white-space: pre-line;
+}
+
+.crazyBtn {
+  /* width: 10em; */
+  padding: 0px 50px;
+  position: relative;
+  height: 3.5em;
+  border: 3px ridge var(---primary-color);
+  outline: none;
+  background-color: transparent;
+  color: var(---primary-color);
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.crazyBtn::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: var(---background-color);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+}
+
+.crazyBtn::before {
+  content: "";
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: var(---background-color);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.crazyBtn:hover::before,
+.crazyBtn:hover::after {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+
+.crazyBtn:hover {
+  -webkit-box-shadow: inset 0px 0px 25px var(---primary-color);
+  box-shadow: inset 0px 0px 25px var(---primary-color);
+}
+
+.bold {
+  font-weight: bold;
+}
