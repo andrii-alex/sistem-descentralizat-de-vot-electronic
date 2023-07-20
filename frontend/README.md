@@ -1,4 +1,4 @@
-# evuid-generator
+# Vue.js frontend
 
 ## Project setup
 ```
